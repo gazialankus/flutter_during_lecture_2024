@@ -92,7 +92,7 @@ class MyHomePage extends StatelessWidget {
 
 class MyColoredWidget extends StatelessWidget {
   const MyColoredWidget({
-    required this.counter, required int Function(int a, int b) f,
+    required this.counter, int Function(int a, int b)? f,
   });
 
   final int counter;
